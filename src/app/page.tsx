@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-4">
-          <p className="text-white text-6xl sm:text-4xl md:text-9xl font-bold">
+          <p className="text-white text-6xl sm:text-6xl md:text-9xl font-bold">
             2025
           </p>
           <p
@@ -98,8 +98,8 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-xl text-gray-800">
               Wishing you all a year filled with love, laughter, and all
-              wonderful things. I&apos;m proud of every single one of you and
-              everything yall have accomplished. Here&apos;s to more amazing moments
+              wonderful things. I’m proud of every single one of you and
+              everything yall have accomplished. Here's to more amazing moments
               together this year, and thank you for being amazing
               friends. <br />
               <br />- Minh
