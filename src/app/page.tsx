@@ -67,8 +67,8 @@ export default function Home() {
         </div>
 
         <div className="space-y-4">
-          <p className="text-white text-xl sm:text-2xl md:text-3xl font-bold">
-            JANUARY 1, 2025
+          <p className="text-white text-6xl sm:text-4xl md:text-9xl font-bold">
+            2025
           </p>
           <p
             className="text-white text-sm max-w-xs mx-auto cursor-pointer"
