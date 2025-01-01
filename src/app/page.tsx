@@ -35,7 +35,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-10 relative z-10 text-center">
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-4xl md:text-7xl font-bold text-white">HAPPY NEW </h1>
-          <h2 className="text-3xl sm:text-3xl md:text-6xl font-bold text-white">YEAR'S FERIEL!</h2>
+          <h2 className="text-3xl sm:text-3xl md:text-6xl font-bold text-white">YEAR&apos;S FERIEL!</h2>
         </div>
 
         <div className="space-y-4">
