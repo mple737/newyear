@@ -42,7 +42,7 @@ export default function Home() {
 
       return () => fireworks.stop();
     }
-  }, []); // Empty dependency array ensures this effect runs only once
+  }, [isSoundPlayed]); // Added `isSoundPlayed` to the dependency array
 
   return (
     <div className="relative bg-gradient-to-br from-purple-900 via-purple-700 to-pink-400 min-h-screen flex items-center justify-center overflow-hidden">
@@ -94,12 +94,12 @@ export default function Home() {
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-20">
           <div className="bg-white p-8 rounded-lg text-center max-w-lg w-full shadow-xl transform transition-all duration-300 scale-95 hover:scale-100">
             <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-indigo-600">
-              HAPPY NEW YEAR YALL!
+              HAPPY NEW YEAR Y&apos;ALL!
             </h2>
             <p className="mt-4 text-xl text-gray-800">
               Wishing you all a year filled with love, laughter, and all
               wonderful things. I’m proud of every single one of you and
-              everything yall have accomplished. Here's to more amazing moments
+              everything y&apos;all have accomplished. Here&apos;s to more amazing moments
               together this year, and thank you for being amazing
               friends. <br />
               <br />- Minh
