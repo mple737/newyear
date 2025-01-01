@@ -98,7 +98,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-xl text-gray-800">
               Wishing you all a year filled with love, laughter, and all
-              wonderful things. I’m proud of each and every one of you and
+              wonderful things. I’m proud of every one and
               everything you’ve accomplished. Here’s to more amazing moments
               together this year, and thank you for being an amazing
               friends. <br />
