@@ -1,11 +1,11 @@
 "use client";
-
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Fireworks } from "fireworks-js";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSoundPlayed, setIsSoundPlayed] = useState(false); // Track if the sound is played
+  const fireworksRef = useRef<Fireworks | null>(null); // Reference to Fireworks instance
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -32,16 +32,19 @@ export default function Home() {
 
     const container = document.getElementById("fireworks-container");
 
-    if (container) {
-      const fireworks = new Fireworks(container, {
+    if (container && !fireworksRef.current) {
+      fireworksRef.current = new Fireworks(container, {
         acceleration: 1.05,
         particles: 150,
         explosion: 6,
       });
-      fireworks.start();
-
-      return () => fireworks.stop();
+      fireworksRef.current.start();
     }
+
+    // Cleanup function is not stopping the fireworks
+    return () => {
+      // Avoid stopping the fireworks when the component is unmounted or the effect is re-triggered
+    };
   }, [isSoundPlayed]); // Added `isSoundPlayed` to the dependency array
 
   return (
