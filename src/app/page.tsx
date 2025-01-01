@@ -56,9 +56,9 @@ export default function Home() {
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-20">
           <div className="bg-white p-8 rounded-lg text-center max-w-lg w-full shadow-xl transform transition-all duration-300 scale-95 hover:scale-100">
-            <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-indigo-600">
-              HAPPY NEW YEAR'S BRO!
-            </h2>
+                <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-indigo-600">
+        HAPPY NEW YEAR&apos;S BRO!
+      </h2>
             <p className="mt-4 text-xl text-gray-800">
               Wishing you a year filled with love, laughter, and all things wonderful! <br />
               I’m so proud of you and everything you’ve accomplished. Keep shining bright, and know that I’m always cheering you on! <br />
