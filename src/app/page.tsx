@@ -35,7 +35,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-10 relative z-10 text-center">
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-4xl md:text-7xl font-bold text-white">HAPPY NEW </h1>
-          <h2 className="text-3xl sm:text-3xl md:text-6xl font-bold text-white">YEAR&apos;S FERIEL!</h2>
+          <h2 className="text-3xl sm:text-3xl md:text-6xl font-bold text-white">YEAR&apos;S EVERYONE!</h2>
         </div>
 
         <div className="space-y-4">
@@ -57,13 +57,14 @@ export default function Home() {
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-20">
           <div className="bg-white p-8 rounded-lg text-center max-w-lg w-full shadow-xl transform transition-all duration-300 scale-95 hover:scale-100">
                 <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-indigo-600">
-        HAPPY NEW YEAR&apos;S BRO!
+        HAPPY NEW YEAR&apos;S YALL!
       </h2>
             <p className="mt-4 text-xl text-gray-800">
-              Wishing you a year filled with love, laughter, and all things wonderful! <br />
-              I’m so proud of you and everything you’ve accomplished. Keep shining bright, and know that I’m always cheering you on! <br />
-              Here’s to more amazing moments this year and most importantly, thank you for being my friend! <br />
-              - Minh
+            Wishing you all a year filled with love, laughter, and all wonderful things.
+            I’m so proud of each and every one of you and everything you’ve accomplished.
+            Here’s to more amazing moments together this year, and most importantly, thank you for being my friends. <br />
+            
+            - Minh
             </p>
 
             <button
